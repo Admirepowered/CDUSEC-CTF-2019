@@ -1,7 +1,7 @@
 # 伪随机数
 Windows下写main函数执行
-
-	int a,b,c,d;
+	main(){
+	int a,b,c,d,intotal=0;
 	srand(10520);
 	a = rand()%10520;
 	b = rand()%10520;
@@ -9,3 +9,4 @@ Windows下写main函数执行
 	d = rand()%10520;
 	intotal=a+b+c+d;
 	printf("%d",intotal);
+	}
