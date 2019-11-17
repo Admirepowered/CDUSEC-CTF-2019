@@ -1,0 +1,3 @@
+#flag{BoBo-RoRo-ToTo}
+User-agent: *
+Disallow:
